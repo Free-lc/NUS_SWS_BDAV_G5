@@ -5,3 +5,5 @@
 
 
 ## 2021/7/18/22:30 optimize demo01
+
+## 2021/7/19/15:47 analyise the relationship between the size of App and the rating
