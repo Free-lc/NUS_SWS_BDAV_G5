@@ -1,6 +1,6 @@
 2021/07/19/16:55 Average install and rating in different categories
 
-2021/07/20/17:128
+2021/07/20/17:28	./zyq/demozyq.twb
 
 应用个数：免费APP的个数8886个，付费APP总共只有约400个。
 
@@ -12,5 +12,7 @@
 
 平均rating：和价格没有明显关系。
 
-个人意见：install和reviews应该比price的决定因素更大，评论数多了，rating才更具普遍性，表明应用更可能符合大多数人的需求。在rating相近的情况下，推荐更多人用的应用；若installs/reviews也相近，再考虑推荐价格更低的应用。
+个人意见：install和reviews应该比price的决定因素更大，评论数多了，rating才更具普遍性，表明应用更可能符合大多数人的需求。在rating相近的情况下，推荐更多人用的应用；若installs/reviews也相近，再考虑推荐价格更低的应用，总之是Price的权值低一些比较好。
+
+提一个关于installs的问题：大家觉得怎么处理只有几百人几十人评论而rating接近5.0的APP排行的位置？我个人觉得这样的高评分可能不太有普适性，不该排在高下载量应用的后面，所以需要让install在公式中有一个关键权值来避免这种现象。
 
