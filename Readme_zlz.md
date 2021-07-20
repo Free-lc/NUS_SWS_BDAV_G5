@@ -9,3 +9,5 @@
 19/7/2021 17:25 完成了Rating & Reviews & Installs的图表
 
 20/7/2021 13:58 完成了根据Rating, Reviews, Installs三个指标信息熵计算出的排名及对应图表
+
+20/7/2021 22:20 添加了不同种类App的计数表
