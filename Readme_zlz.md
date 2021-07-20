@@ -5,3 +5,7 @@
 两个思路：1、根据公式计算出的Ranking对不同Category的App进行排序推荐。
 
 2、综合多个属性对Paid和Free的热门App进行比较。
+
+19/7/2021 17:25 完成了Rating & Reviews & Installs的图表
+
+20/7/2021 13:58 完成了根据Rating, Reviews, Installs三个指标信息熵计算出的排名及对应图表
