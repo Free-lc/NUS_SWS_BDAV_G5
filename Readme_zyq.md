@@ -55,3 +55,19 @@ googleplaystore_user_reviews.csv
 installs：由于installs的取值比较模糊，看不出定价本身的明显关系，只能得知超过50000的应用定价均分布在$0~$13.99内。
 
 reviews：由于付费应用本身较少（753个，免费应用8886个），而某些特定售价的应用更少甚至只有一个应用，中位数就是其本身
+
+Dear Dr Danny,
+
+I am Zhao Yingqi from SWS-BDAV-group 5.
+
+We have considered your suggestions this afternoon and discussed about them. I think we misunderstand the "Critical business question" and consider it is task-like and is equal to the motivation of our Project. And we should find some important factors and solve it hence. Actually we stand in the shoes of general public all the while and believe that the merely significant motivation is that there should be a recommendation that reflects what are the characteristics of apps that users prefer. Therefore, we concentrate on finding contributing factors and consider questions like what's the most popular category or what the appropriate size scope of a game app, etc.,  may not attract our audience.
+
+However, we find that we can't get sufficient facts from data that can lead to a sound recommendation. I realize that we may have considered it from a too high and ambitious perspective.
+
+Should we rectify our guideline and focus more on appropriate charts and smooth storytelling? Can we choose questions like whether rating of an app contributes to its installations, of which the answers can be got directly from visualization of data, as one of our business-critical questions?
+
+We're looking forward to your advice.
+
+regards
+
+Zhao Yingqi
