@@ -27,3 +27,5 @@
 ##  2021/7/20/23.53 calculate the overallranking
 
 ## 2021/7/21/0.59 finish the demo
+
+## 2021/7/21/12:00 重新调整了词云
