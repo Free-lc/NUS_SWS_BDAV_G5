@@ -13,3 +13,5 @@
 20/7/2021 22:20 添加了不同种类App的计数表
 
 21/7/2021 完成了根据Installs排序的种类图
+
+22/7/2021 完善了"What is the most popular category?"的可视化。
