@@ -56,6 +56,12 @@ installs：由于installs的取值比较模糊，看不出定价本身的明显�
 
 reviews：由于付费应用本身较少（753个，免费应用8886个），而某些特定售价的应用更少甚至只有一个应用，中位数就是其本身
 
+## 关于price的问题
+
+- 
+
+
+
 Dear Dr Danny,
 
 I am Zhao Yingqi from SWS-BDAV-group 5.
@@ -69,5 +75,19 @@ Should we rectify our guideline and focus more on appropriate charts and smooth 
 We're looking forward to your advice.
 
 regards
+
+Zhao Yingqi
+
+
+
+
+
+Dear Dr Danny
+
+“then consider what are the business critical questions for your GENERAL PUBLIC audience.”
+
+I wonder what public audience means? Is it means speaker should say things useful for public or say things with few commercial terms that all public can easily understand?
+
+regard
 
 Zhao Yingqi
