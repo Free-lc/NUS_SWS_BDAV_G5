@@ -1,0 +1,764 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0605.1023                               -->
+<workbook original-version='18.1' source-build='2021.2.0 (20212.21.0605.1023)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='googleplaystore_cleaned_with_ranking' inline='true' name='federated.085fz9f17twzll17dn3u419v3qd5' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='googleplaystore_cleaned_with_ranking' name='textscan.1ot6cnu003soub1ddvdyo0ompywa'>
+            <connection class='textscan' directory='C:/Users/DELL/Desktop/暑研/NUS_SWS_BDAV_G5' filename='googleplaystore_cleaned_with_ranking.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ot6cnu003soub1ddvdyo0ompywa' name='googleplaystore_cleaned_with_ranking.csv' table='[googleplaystore_cleaned_with_ranking#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='App' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='real' name='Rating' ordinal='2' />
+            <column datatype='integer' name='Reviews' ordinal='3' />
+            <column datatype='real' name='Size(k)' ordinal='4' />
+            <column datatype='integer' name='Installs' ordinal='5' />
+            <column datatype='string' name='Type' ordinal='6' />
+            <column datatype='real' name='Price($)' ordinal='7' />
+            <column datatype='string' name='Content Rating' ordinal='8' />
+            <column datatype='string' name='Genres' ordinal='9' />
+            <column datatype='date' name='Last Updated' ordinal='10' />
+            <column datatype='string' name='Current Ver' ordinal='11' />
+            <column datatype='string' name='Android Ver' ordinal='12' />
+            <column datatype='real' name='Norm Rating' ordinal='13' />
+            <column datatype='real' name='Norm Reviews' ordinal='14' />
+            <column datatype='real' name='Norm Installs' ordinal='15' />
+            <column datatype='real' name='Rating Proportion' ordinal='16' />
+            <column datatype='real' name='Reviews Proportion' ordinal='17' />
+            <column datatype='real' name='Installs Proportion' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='Ranking' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='real' name='installs -1' ordinal='26' />
+            <column datatype='real' name='reviews-1' ordinal='27' />
+            <column datatype='real' name='rating-1' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ot6cnu003soub1ddvdyo0ompywa' name='googleplaystore_cleaned_with_ranking.csv' table='[googleplaystore_cleaned_with_ranking#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='zh_CN' separator=','>
+            <column datatype='string' name='App' ordinal='0' />
+            <column datatype='string' name='Category' ordinal='1' />
+            <column datatype='real' name='Rating' ordinal='2' />
+            <column datatype='integer' name='Reviews' ordinal='3' />
+            <column datatype='real' name='Size(k)' ordinal='4' />
+            <column datatype='integer' name='Installs' ordinal='5' />
+            <column datatype='string' name='Type' ordinal='6' />
+            <column datatype='real' name='Price($)' ordinal='7' />
+            <column datatype='string' name='Content Rating' ordinal='8' />
+            <column datatype='string' name='Genres' ordinal='9' />
+            <column datatype='date' name='Last Updated' ordinal='10' />
+            <column datatype='string' name='Current Ver' ordinal='11' />
+            <column datatype='string' name='Android Ver' ordinal='12' />
+            <column datatype='real' name='Norm Rating' ordinal='13' />
+            <column datatype='real' name='Norm Reviews' ordinal='14' />
+            <column datatype='real' name='Norm Installs' ordinal='15' />
+            <column datatype='real' name='Rating Proportion' ordinal='16' />
+            <column datatype='real' name='Reviews Proportion' ordinal='17' />
+            <column datatype='real' name='Installs Proportion' ordinal='18' />
+            <column datatype='real' name='F20' ordinal='19' />
+            <column datatype='real' name='F21' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='real' name='Ranking' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='real' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='real' name='installs -1' ordinal='26' />
+            <column datatype='real' name='reviews-1' ordinal='27' />
+            <column datatype='real' name='rating-1' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;￥&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_CN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>App</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[App]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>App</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reviews]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Reviews</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Size(k)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Size(k)]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Size(k)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Installs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Installs]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Installs</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price($)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Price($)]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Price($)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Content Rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Content Rating]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Content Rating</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genres</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genres]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Genres</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last Updated</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Last Updated]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Last Updated</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Current Ver</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Current Ver]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Current Ver</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Android Ver</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Android Ver]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Android Ver</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm Rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm Rating]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Norm Rating</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm Reviews</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm Reviews]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Norm Reviews</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Norm Installs</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Norm Installs]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Norm Installs</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating Proportion</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rating Proportion]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Rating Proportion</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reviews Proportion</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reviews Proportion]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Reviews Proportion</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Installs Proportion</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Installs Proportion]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Installs Proportion</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ranking</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Ranking]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>Ranking</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>installs -1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[installs -1]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>installs -1</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>reviews-1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[reviews-1]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>reviews-1</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating-1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rating-1]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>rating-1</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[googleplaystore_cleaned_with_ranking.csv]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='googleplaystore_cleaned_with_ranking.csv' datatype='table' name='[__tableau_internal_object_id__].[googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6]' role='measure' type='quantitative' />
+      <column caption='Installs -1' datatype='real' name='[installs -1]' role='measure' type='quantitative' />
+      <column caption='Rating-1' datatype='real' name='[rating-1]' role='measure' type='quantitative' />
+      <column caption='Reviews-1' datatype='real' name='[reviews-1]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;中国&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='googleplaystore_cleaned_with_ranking.csv' id='googleplaystore_cleaned_with_ranking.csv_2F29CF2861B94700ACDC2E01641978B6'>
+            <properties context=''>
+              <relation connection='textscan.1ot6cnu003soub1ddvdyo0ompywa' name='googleplaystore_cleaned_with_ranking.csv' table='[googleplaystore_cleaned_with_ranking#csv]' type='table'>
+                <columns character-set='windows-1252' header='yes' locale='zh_CN' separator=','>
+                  <column datatype='string' name='App' ordinal='0' />
+                  <column datatype='string' name='Category' ordinal='1' />
+                  <column datatype='real' name='Rating' ordinal='2' />
+                  <column datatype='integer' name='Reviews' ordinal='3' />
+                  <column datatype='real' name='Size(k)' ordinal='4' />
+                  <column datatype='integer' name='Installs' ordinal='5' />
+                  <column datatype='string' name='Type' ordinal='6' />
+                  <column datatype='real' name='Price($)' ordinal='7' />
+                  <column datatype='string' name='Content Rating' ordinal='8' />
+                  <column datatype='string' name='Genres' ordinal='9' />
+                  <column datatype='date' name='Last Updated' ordinal='10' />
+                  <column datatype='string' name='Current Ver' ordinal='11' />
+                  <column datatype='string' name='Android Ver' ordinal='12' />
+                  <column datatype='real' name='Norm Rating' ordinal='13' />
+                  <column datatype='real' name='Norm Reviews' ordinal='14' />
+                  <column datatype='real' name='Norm Installs' ordinal='15' />
+                  <column datatype='real' name='Rating Proportion' ordinal='16' />
+                  <column datatype='real' name='Reviews Proportion' ordinal='17' />
+                  <column datatype='real' name='Installs Proportion' ordinal='18' />
+                  <column datatype='real' name='F20' ordinal='19' />
+                  <column datatype='real' name='F21' ordinal='20' />
+                  <column datatype='real' name='F22' ordinal='21' />
+                  <column datatype='real' name='Ranking' ordinal='22' />
+                  <column datatype='string' name='F24' ordinal='23' />
+                  <column datatype='real' name='F25' ordinal='24' />
+                  <column datatype='string' name='F26' ordinal='25' />
+                  <column datatype='real' name='installs -1' ordinal='26' />
+                  <column datatype='real' name='reviews-1' ordinal='27' />
+                  <column datatype='real' name='rating-1' ordinal='28' />
+                  <column datatype='string' name='F30' ordinal='29' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='most popular category'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='googleplaystore_cleaned_with_ranking' name='federated.085fz9f17twzll17dn3u419v3qd5' />
+          </datasources>
+          <datasource-dependencies datasource='federated.085fz9f17twzll17dn3u419v3qd5'>
+            <column datatype='string' name='[App]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Installs]' role='measure' type='quantitative' />
+            <column-instance column='[App]' derivation='CountD' name='[ctd:App:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Installs]' derivation='Sum' name='[sum:Installs:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]' direction='DESC' using='[federated.085fz9f17twzll17dn3u419v3qd5].[sum:Installs:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.085fz9f17twzll17dn3u419v3qd5].[ctd:App:qk]' scope='rows' value='Total App Count' />
+            <encoding attr='space' class='0' field='[federated.085fz9f17twzll17dn3u419v3qd5].[ctd:App:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]' value='49' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]' />
+              <color column='[federated.085fz9f17twzll17dn3u419v3qd5].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.085fz9f17twzll17dn3u419v3qd5].[ctd:App:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='GanttBar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]' />
+              <color column='[federated.085fz9f17twzll17dn3u419v3qd5].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.4832596778869629' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.085fz9f17twzll17dn3u419v3qd5].[sum:Installs:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]' />
+              <color column='[federated.085fz9f17twzll17dn3u419v3qd5].[:Measure Names]' />
+              <lod column='[federated.085fz9f17twzll17dn3u419v3qd5].[ctd:App:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.085fz9f17twzll17dn3u419v3qd5].[sum:Installs:qk] + [federated.085fz9f17twzll17dn3u419v3qd5].[ctd:App:qk])</rows>
+        <cols>[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]</cols>
+      </table>
+      <simple-id uuid='{357844ED-9958-4D53-AACE-AE0A4B614ADA}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='most popular category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]&#10;[federated.085fz9f17twzll17dn3u419v3qd5].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.085fz9f17twzll17dn3u419v3qd5].[:Measure Names]</field>
+            <field>[federated.085fz9f17twzll17dn3u419v3qd5].[none:App:nk]</field>
+            <field>[federated.085fz9f17twzll17dn3u419v3qd5].[none:Category:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A4D2B915-9430-4C0B-A180-8F713B37B3C9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='most popular category' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAMGUlEQVR4nO3d62/b1hkG8OeQusuSbNmyLbuJL6nTFu3SS7o0wzBsLdBh2D5uGLbv+8P2
+      df/AgGIXDCiKreh6WZugaRI7TlK7tiVbd0oUyXP2wZfcbImiZTnMeX5AEMt4Rb1M+Jg0dc6R
+      UEopEGkqAgDMAOkqcvhFs9kc2kYty0IqlRra9ojOSgQAhBDIZDJD3fCwt0d0FozzboDoPDEA
+      pDUGgLTGAJDWGADS2sABUEqhWq0BAJxOC7VmG7bVwOq9+/D4fgKFTKR/yZNsq4Fbd1bx3rtv
+      Y3V1DUY8hY5l4dXLl+B5Coa5HxK+uUZhMHAAEuksJrJpWJUt1CwHTn0XkxM5PLz9NRIX3sFs
+      1oSUEp7nnUW/REM1cABa9Qra7TbaoohrV99EpVaH22lir6YwNxaBaRowTROuMlBpOz23JYTA
+      bCYWuPkXgZSyb40QAkKIEXSjH3EWg+EajQaqXgz/vFvtWRczBf749vSwXz5U/vfF59gtl3vW
+      vHX1XeQnJ0fUkV4GPgPQcL35ztXzbkFrvA1KWmMASGsMAGmNASCtMQCkNQaAtMYAkNYYANIa
+      A0BaYwBIawMPhei06vjm9jqu/ugy7txZhxFPIuJ1YEtgcXkFiSgzReERaDh0NhWHEYkjGRNo
+      dLuQhomU6cB2FaKGB8/zIKW/4dCu6w7cNNGwBBoOvbGxgfFcDpaj9g9g2UHVsZGYkcglozBN
+      EwZMfw1EOB6Pzs/AR186O4EPPvgAADAzOzv0hohGiRfspDUGgLTGAJDWGADSGgNAWmMASGsM
+      AGmNASCtMQCkNQaAtMYAkNYGD4BS8DwPSim4jgNPSigp0XUcrghNoTP4fACrgc++voWf/vgK
+      1te/R7vrwpA2kukM5i4sIhHlIq4UHoHmA0zncxBmDAZcFIszKJfLQKeKesdD1FCcD0ChEWg+
+      QKVSwfbmA5RrNhJZDwlDouUamIzsL43O+QAUFoHmA1y/fh0AMDt/8M2ZqWH2RDQyvAtEWmMA
+      SGsMAGmNASCtMQCkNQaAtMYAkNYYANIaA0BaYwBIawwAaW3gACglUS7vQimFSrkMF4DVqOHu
+      2jpcyfkAFC4DD4az2y3ce/AQk/ks1r+7i5XJCdy7/z0uLV6AlApKYH9ijM/JMUeTaNwOxFd/
+      7l//xh+AxPigbRMda/D5AKkMsukkhBFFYWoCUIBpmth5cBvR4hUUcxEopSB9BkBKuf+F58Js
+      /tC/3u0Ch88hOqVA8wFs20apVELVtuFulTGTz6JcFZjNRGAYxv4f5e/qyjQP5g1If/MHTNME
+      TH+1RP0Emg9w5coEAKBQKBx9f3JmeE0RjQrvApHWGADSGgNAWmMASGsMAGmNASCtMQCkNQaA
+      tMYAkNYYANIaA0BaG3x59FYdX99aw7tXXsE3N28jmy9AdmpwlIHF5RUkoswUhUeg5dFzY0l0
+      qtsoLL0Oa3sVHqJIGjY6jgy8PLrwPF/rSXueB8Ul1WlIAg2H3tzcxPj4K/hh9Qay4xOQrSrq
+      TgcpieDLo6sBhkNzSXUakkDDod9//30AwMzM3MF3F4bZE9HI8IKdtMYAkNYYANIaA0BaYwBI
+      awwAaY0BIK0xAKQ1BoC0xgCQ1hgA0lrgACil0LYseFJBei6aLevRSs9EIRF4WKW1t4n1XRvw
+      PMC1kJvIIxqbRzwqhtkf0ZkKHIBYKgO1VUe73UYmm0G3toNqdhZTnA9AIRI4AGY0jqgJTC0u
+      o1svoWlHMRUzOB+AQiXwkWRE4njl1df2H0zxE1sonHgXiLTGAJDWGADSGgNAWmMASGsMAGmN
+      ASCtMQCkNQaAtMYAkNYYANLaKeYDeFhfu4tKo4VmbQ93V9fgeJwPQOESeDCca1VQtw20Ht6H
+      UsDF+VkopaAUDv72FwYp5eEXvtIopQIOn0N0SoHPAG63C8MwAAgIIVDfuY9Sw33s4D+rswHP
+      MjQ8gc8AiWwBifI95ApziMgOSnt1LGSiMAwBwzAglL9s7YcIgDFA/UHtJ1v/gOW2eta/PvEW
+      5tIXfW2b9BM4AMKM4uWVywePcpiYmhlSS/7dqt5Atbvbs6aYusAA0Il4F4i0dmwAXGsPd+/c
+      wUf/+veo+yEaqWMD0G1W8LePv0QuEx91P0Qj9UwAlFL4+NMvUcgaKO02zqMnopHp+TuAEFzj
+      h15szwRACIEPf/VrZFJJJOKx8+iJaGSOPQO0ttZQtmNwnc6o+yEaqWPfB4iNz+KXv1jAbmln
+      1P0QjdSxAfjyk7/ju0YGM5M5vHr5UqANSynx7bf3etYkYxHg7elA2ycahmMD8MZb76BxqwLj
+      FCsQGoaB115b6lkTM/lLNp2vY38HSOXnAa+Di7NTJz5Rug4qlQqaVhue20WtVufy6BQ6x/6M
+      7+xtoGo5KFWbWDnhiUpJdG0LDze2YUgbk4UCEqkxLo9OoXJsAIxEBp5VRaOZOvGJZjQOr9PG
+      0qUlbDx4gPbuJirpAgojXR69/xlHSnn0GkRPeyYASin857MvkBlLwjR6HJJKQcTHkEnGkI4L
+      NJw4CvFRL4/e/2xjGMaj1yB6yjNHhhACv/jwN/2fKQSKxVkAwIXFl4feGNEocDg0aY0BIK0x
+      AKQ1BoC0xgCQ1hgA0hoDQFpjAEhroX6L1PNc2N1uzxq/QzJIT6EOQKdjo9Fo9qxxHI4DopOF
+      OgDpdBpT0XzPmnicS7vQyQIHQCmFrY0HiKYnEEMX27s1LC4tI8pJLhQigQPgNEu4+7CMlZfH
+      sL2zg/niNKRSkFJBSgml/C1hPvjy6PKx5dH7D4dWSj16DaKnBP+ADOmhUHwJldIWFABrbxPl
+      Bq+3KVwCnwFi2VmMVe8hOXcREdnBzm4NC9nRLo/uZz6AEOLRaxA9Jfjy6ELgpYXlg0cZ5PKF
+      IbVENDqhvgs0qM73f4FT/bxnTTT/HhJzvx1RR3TetAqA8ppQzl7vmj6fOEMvFl4ck9YYANKa
+      VpdAg7JdF5bTe6yRKQSyieSIOqJhYwB6uLm1iY++u9mzppAew5+u/2xEHdGw8RKItMYAkNYY
+      ANIaA0BaYwBIa8HnA3gubtz4BtPzi3BbFTQ6DhaXV5CIMlMUHoEDIKUN1zPQaVto2x7SMQOe
+      3F8a/XldHl1Kf/MHHtX3n0egAC6/HmLBzwBSoDAzhUq1Drg2XAnUOxLpXPS5XR7dMQT6xVII
+      cVTvZxi1ALj8eogF/p8zY0nkMg5mZmYhlIeW1UE2ywOBwuVU8wEy2dzBIxO5HD9Um8KHv7GS
+      1hgA0hov2oepUgE++mv/ut/9HohEz74f6osBGCYpAcvqX8ePU35u8BKItMYzwDl7uL4G1ecN
+      ukKxiGTy5M9spuAYgHN246svIL3eb89dS/+cATgjvAQirTEApDUGgLR2qgB4jo223YXb7aBU
+      2oVUvL9H4XKqzwdYvXMbMpqC226hOD8Hx1OIR/j5ABQegQNgVbZQqrWh0MZUfhzVzTV0IzlM
+      jylt5wMI6W8fXM8DhP8fFI/vAw1X4ACk80X85FoB5b0qnHYdNTeFmYQB0zT1nQ9g+NznJ/ah
+      v8f3wbu/A9Xq9K4v5GAUcj1raN+p3gcwzAimC1MApjA/pIaoN1VpQlV7L+CrUnGAAfCFd4FI
+      awwAaY0BIK0xAKQ1BoC0xgCQ1hgA0hoDQFpjAEhrDABpjQEgrZ1iefQuVlfXkZ2cRkzZ2Kk0
+      sLi0jFiEmaLwCD4YzoggM5bCbrkEJT1MT+agsD909/CPH97hhHBP+ho/KqWEOppE7md4szx6
+      DeVjwo5S6rH6wfZBKOnrlOpJCfSZCH9iTwPWU2+nOAN4SKTG4JQrEIYBaVVQjk5ibjwKIQSE
+      z/Huh3XCGKB+gLH0T/bS/3mP1w+8Dz7rDSGgBtmHx18D/UMg4P/fX3enGA6tUC6V8NLCEqLK
+      xvZuDQvZRwe/74PhcMz9AAebOBqn7+c54ug1/B4TxkDbH7z+yX3w9YSj1/B1ThKPerLKTbT3
+      mj3LY+k4MvMT/vt5gQQOgBGJ4dLKysGjMWTGJ4fU0tlpWha2NzZ61kyYVcxfHFFDI9DYrKB8
+      c7NnzVgx91wH4P7ePfz34ac9axbzy7h64drA29ZqYayxVArx+d5Td6Lj4yPqhvxayC9hIb90
+      JtvmLRvSGgNAWmMASGsMAGmNASCt/R866n5Mf3DPNgAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
