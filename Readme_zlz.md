@@ -15,3 +15,5 @@
 21/7/2021 完成了根据Installs排序的种类图
 
 22/7/2021 完善了"What is the most popular category?"的可视化。
+
+24/7/2021 最终版本的Q1，并导出了图片
