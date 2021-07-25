@@ -29,3 +29,11 @@
 ## 2021/7/21/0.59 finish the demo
 
 ## 2021/7/25 write presentation draft & fullfill the demo
+
+## presentation：
+
+- In order to make the applications be liked and popular among people, I’d like to analyze whether the size of application contributes to the popularity of an app and what size applicati-ons people like. My analysis will especially focus on the relationship between installations and the size, as well as between rating and size. Because the installations and rating of an app always reflect its popularity and people’s preference. 
+   Initially, in this scatter diagram, I use red points to represent the relationship between app size and installations. And I use the green stars represent the relationship between size and rating. ( The ordinate on the left represents the average rating of apps and the right one represents the average installations in a certain size range. And the abscissa represents the size range of app in positive order.) By the green and red linear trend lines, we can conclude that the bigger applications would receive higher rating and more installations.
+   Furthermore, in order to analyze the rating difference and installation difference of different app size more intuitively, I divide the apps into three groups. The apps less than 10M (megabytes) are in the LightSize group and the apps larger than 50M are in the LargeSize group, while others are in the MiddleSize group. 
+   The arc chart demonstrate that the larger apps receive higher rating. Besides, we can see the larger apps acquire more installations in this bar chart. 
+   In conclusion, the larger apps seem to get great popularity and favorable comment. Consequently, you app developers add as many great features and ideas as possible to you application, regardless of the size of the it. And the large excellent app will become a surprise hit.
