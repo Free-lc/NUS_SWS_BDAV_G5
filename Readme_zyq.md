@@ -56,10 +56,6 @@ installs：由于installs的取值比较模糊，看不出定价本身的明显�
 
 reviews：由于付费应用本身较少（753个，免费应用8886个），而某些特定售价的应用更少甚至只有一个应用，中位数就是其本身
 
-## 关于price的问题
-
-- 
-
 
 
 Dear Dr Danny,
@@ -91,3 +87,62 @@ I wonder what public audience means? Is it means speaker should say things usefu
 regard
 
 Zhao Yingqi
+
+## 2021/07/25/ 11:00
+
+## story telling
+
+##### 介绍数据集
+
+数据集的来源，时间范围；数据集介绍：有哪些文件，包含了哪些维度的数据。
+
+##### 背景介绍
+
+###### What is the Motivation?
+
+我们作为一家互联网公司的应用开发者，希望通过分析数据，更直观地看到不同应用的市场表现，并探究那些热门应用是如何取得成功的。
+
+###### Who are the Target audience?
+
+The general public that includes...
+
+###### What is the intended effect?
+
+让观众了解应用市场当下的热点是什么，以及背后的推动因素。尤其是帮APP developers 开发出更符合市场需要的优秀应用。
+
+背景介绍：数据集的来源，时间范围；数据集介绍：有哪些文件，包含了哪些维度的数据。
+
+### data cleaning 
+
+googleplaystore.csv
+
+起初我们利用筛选器查看各个维度数据的范围，发现其中有异常值，是由于数据错位所致，于是进行手工调整。
+
+At the beginning we used the filter in Excel to look at the range of data of each index. And we found a few outliers caused by misplacement in one row. And we rectified these items manually.
+
+没有评分的应用，默认评分为0.
+
+Then, in terms of apps without rating information, we fill up with zero.
+
+为了便于按数值处理，我们将installations数据的加号去掉，把size的单位统一为kilobyte，把价格前的$去掉。
+
+After that, for the convenience of calculation, we remove the plus mark of installs and the dollar mark of price. Then we convert Mb of app size to Kb, and remove the unit, similarly.
+
+然后我们将最近更新统一为M/D/Y的形式。
+
+根据APP名称删除重复值，每个APP仅保留一个条目。
+
+googleplaystore_user_reviews.csv
+
+首先我们把含有空缺值Nan的条目删掉。接着发现了数据错位并手动调整，和第一个文件一样。
+
+## 2021/07/26/00:48 ppt of Q4
+
+
+
+
+
+
+
+
+
