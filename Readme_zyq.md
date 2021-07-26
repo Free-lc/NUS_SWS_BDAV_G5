@@ -102,9 +102,15 @@ Zhao Yingqi
 
 我们作为一家互联网公司的应用开发者，希望通过分析数据，更直观地看到不同应用的市场表现，并探究那些热门应用是如何取得成功的。
 
+As app developers, we aim at developing superior and popular applications. To achieve this, we should follow voice of users hiding behind numerous feedback data from the Internet. This time, we have got a dataset scrubbed from  Google Play Store. It consist of information about 10 thousands of applications from more than 30 popular categories, including there installation number, rating, reviews, price, content rating, size, etc.  
+
 ###### Who are the Target audience?
 
-The general public that includes...
+The general public that includes....
+
+
+
+
 
 ###### What is the intended effect?
 
@@ -137,6 +143,48 @@ googleplaystore_user_reviews.csv
 首先我们把含有空缺值Nan的条目删掉。接着发现了数据错位并手动调整，和第一个文件一样。
 
 ## 2021/07/26/00:48 ppt of Q4
+
+## speech draft of Q about price
+
+### 1
+
+我们首先来看下载量。这两个饼图是基于不同价格区间应用的总下载量制作的。首先来看这个小的，我们可以明显看到免费应用平均下载量的巨大优势，和付费应用相比。换句话说，大多数用户下载免费应用。实际上我们将minor part夸大了，付费部分几乎不可见。
+
+Hello. Now I'll share my analysis of price.
+
+I'll analyse installations and rating as well.
+
+First let's look at the total amount of installation. From this pie chart, you can see a preponderance of free apps. That means more users download them. 
+
+Then let's look at the minor part--paid apps. In fact, it should have been almost invisible.
+
+Look at this big chart. We divide paid apps into some ranges like this.（用鼠标指）And the percentage is the proportion of total installations. 
+
+You can see apps less than $5 here(用鼠标指). Their total installations account for nearly 3 quarters.
+
+So we can conclude that people prefer cheaper apps. For app developers, if you want greater popularity, you'd better control the price. To share the cost, you can insert ads or necessary charge into your apps.
+
+更具体地，我们从里面排除掉免费应用，就得到了这个大饼图。我把价格分为这几个区间：xxxxx。我们可以看到，小于5美元的应用几乎占了总下载量的四分之三。
+
+结论：人们更愿意下载便宜的应用。所以为了获得尽量多的下载量，我们要尽量让应用的价格在较低水平。我们可以通过内置广告或引入额外收费服务to share the cost。
+
+### 2
+
+接下来我们看一些关于rating的有趣的东西。
+
+这是不同价格区间的rating分布
+
+Next, let's see something interesting about rating.
+
+This bar chart is about the distribution of rating in different price ranges.
+
+This is free group and these are paid groups(指). In each group you can see the maximum, minimum and average of rating. And darker color means more installations.
+
+Then you can see the paid apps with more installations, with darker color here. Their ratings are generally above 4. However, not all the popular free apps receive high rating.
+
+That's to say, users are probably more particular about an app if it's paid. So paid apps may depend more on their quality. 
+
+(视时间)For users, that means you can rely  more on installation ranking  when you visit the Google Play Store.
 
 
 
