@@ -148,7 +148,7 @@ googleplaystore_user_reviews.csv
 
 ### 1
 
-我们首先来看下载量。这两个饼图是基于不同价格区间应用的总下载量制作的。首先来看这个小的，我们可以明显看到免费应用平均下载量的巨大优势，和付费应用相比。换句话说，大多数用户下载免费应用。实际上我们将minor part夸大了，付费部分几乎不可见。
+我们首先来看下载量。这两个饼图是基于不同价格区间应用的总下载量制作的。首先来看这个小的，我们可以明显看到免费应用平均下载量的巨大优势。这意味着大多数用户下载免费应用。实际上我们将minor part夸大了，付费部分几乎不可见。
 
 Hello. Now I'll share my analysis of price.
 
@@ -158,9 +158,9 @@ First let's look at the total amount of installation. From this pie chart, you c
 
 Then let's look at the minor part--paid apps. In fact, it should have been almost invisible.
 
-Look at this big chart. We divide paid apps into some ranges like this.（用鼠标指）And the percentage is the proportion of total installations. 
+Look at this big chart. We divide paid apps into some ranges like this.（用鼠标指）This is the range and the percentage is the proportion of total installations. 
 
-You can see apps less than $5 here(用鼠标指). Their total installations account for nearly 3 quarters.
+The point is, these bright color parts are apps less than $5. Their total installations account for nearly 3 quarters.
 
 So we can conclude that people prefer cheaper apps. For app developers, if you want greater popularity, you'd better control the price. To share the cost, you can insert ads or necessary charge into your apps.
 
@@ -182,9 +182,37 @@ This is free group and these are paid groups(指). In each group you can see the
 
 Then you can see the paid apps with more installations, with darker color here. Their ratings are generally above 4. However, not all the popular free apps receive high rating.
 
-That's to say, users are probably more particular about an app if it's paid. So paid apps may depend more on their quality. 
+That's to say, users are probably more particular about an app if it's paid. So paid apps may depend more on their quality.  And those popular ones must have unique recipes to learn from
 
-(视时间)For users, that means you can rely  more on installation ranking  when you visit the Google Play Store.
+## 2021/07/27 introduction speaking
+
+###### welcome(p1)
+
+Good afternoon, everyone! Our topic today is the Characteristics of popular apps.
+
+###### introduction and dataset (p2)
+
+As app developers, we care about how to develop popular applications. 
+
+###### (p3)
+
+Now we have got a dataset of Google Play Store. It consists of information about 10 thousand apps from more than 30 popular categories. We can see their installation number, rating, reviews, price, size, etc.  
+
+###### motivation
+
+From this dataset, we want to look through the behavior of the market, look for recipes and characteristics of those successful apps, through data analysis and visualization.
+
+###### intended effect
+
+After our representation, we hope you can learn more about mainstream in the market, and the underlying factors. For app developers, we hope today will help you develop more excellent apps in the future. 
+
+###### critical questions (p4)
+
+To answer this main question, we cleaned the data, and analyze from different aspects, 	**(p5)**	like what's the most popular categories of apps, and how the size, last updates and price contribute to apps' popularity. 
+
+We will show them in turn.
+
+
 
 
 
